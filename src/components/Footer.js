@@ -36,7 +36,7 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='/'>GitHub</Link>
+                        <Link to='https://github.com/onomatopoetica'>GitHub</Link>
                         <Link to='/'>Twitter</Link>
                         <Link to='/'>LinkedIn</Link>
                         <Link to='/'>Unsplash</Link>
@@ -47,7 +47,7 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            Nice to meet you!{/* <i className='fas fa-heart' /> */}
+                            Nice to meet you!
                         </Link>
                     </div>
                     <small className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</small>

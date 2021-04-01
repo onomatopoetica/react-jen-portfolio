@@ -6,32 +6,38 @@
 }
 
 .home,
-.products,
-.contact,
+.about,
+.projects,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: 20vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
-.products {
-  background-image: url('images/fromthesky.jpeg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+p {
+  font-size: 1rem;
+  color: rgb(102, 205, 223);
+  margin: 10px;
 }
 
-.services {
-  background-image: url('images/fromthesky.jpeg');
-  background-position: center;
+.about {
+  /* background-image: url('images/fromthesky.jpeg'); */
+  /* background-position: center; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  color: rgb(102, 205, 223);
+  font-size: 40px;
+}
+
+.projects {
+  /* background-image: url('images/fromthesky.jpeg'); */
+  /* background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  background-repeat: no-repeat; */
+  color: rgb(102, 205, 223);
+  font-size: 40px;
 }
 
 .sign-up {

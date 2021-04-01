@@ -42,18 +42,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/react-jen-portfolio/services' className='nav-links' onClick={closeMobileMenu}>
-                            Services
+                        <Link to='/react-jen-portfolio/projects' className='nav-links' onClick={closeMobileMenu}>
+                            Projects
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/react-jen-portfolio/products' className='nav-links' onClick={closeMobileMenu}>
-                            Products
-                        </Link>
-                    </li>
-                    <li className='nav-item'>
-                        <Link to='/react-jen-portfolio/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Sign Up
+                        <Link to='/react-jen-portfolio/about' className='nav-links' onClick={closeMobileMenu}>
+                            About
                         </Link>
                     </li>
                 </ul>

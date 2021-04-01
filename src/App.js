@@ -3,9 +3,8 @@ import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Projects from './components/pages/Projects';
+import About from './components/pages/About';
 import ScrollToTop from './components/ScrollToTop';
 
 
@@ -18,9 +17,8 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/react-jen-portfolio' exact component={Home} />
-          <Route path='/react-jen-portfolio/services' exact component={Services} />
-          <Route path='/react-jen-portfolio/products' exact component={Products} />
-          <Route path='/react-jen-portfolio/sign-up' exact component={SignUp} />
+          <Route path='/react-jen-portfolio/projects' exact component={Projects} />
+          <Route path='/react-jen-portfolio/about' exact component={About} />
         </Switch>
       </Router>
     </>
