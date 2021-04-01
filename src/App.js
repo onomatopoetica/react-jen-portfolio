@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/react-jen-portfolio' component={Home} />
-          <Route path='/services' component={Services} />
-          <Route path='/products' component={Products} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/react-jen-portfolio' exact component={Home} />
+          <Route path='/react-jen-portfolio/services' exact component={Services} />
+          <Route path='/react-jen-portfolio/products' exact component={Products} />
+          <Route path='/react-jen-portfolio/sign-up' exact component={SignUp} />
         </Switch>
       </Router>
     </>
