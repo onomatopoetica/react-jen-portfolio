@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
+// import { Button } from './Button';
 import './Footer.css';
 
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription' >
-                <p className='footer-subscription-heading'>Subscribe!</p>
-                <p className='footer-subscription-text'>You can unsubscribe at any time.</p>
-                <div className='input-areas'>
-                    <form>
+            <section id='footer'>
+                {/* <section className='footer-subscription' > */}
+                {/* <p className='footer-subscription-heading'>Subscribe!</p>
+                <p className='footer-subscription-text'>You can unsubscribe at any time.</p> */}
+                {/* <div className='input-areas'> */}
+                {/* <form>
                         <input
                             className='footer-input'
                             type='email'
@@ -18,43 +19,47 @@ function Footer() {
                             placeholder='name@mail.com'
                         />
                         <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form>
-                </div>
+                    </form> */}
+                {/* </div> */}
+                {/* </section> */}
             </section>
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
+                    {/* <div className='footer-link-items'>
                         <h2>About Me</h2>
                         <Link to='/sign-up'>About Me</Link>
                         <Link to='/'>Testimonials</Link>
-                    </div>
+                    </div> */}
                     <div className='footer-link-items'>
                         <h2>Contact Me</h2>
-                        <Link to='/'>Contact</Link>
+                        <p className='email'>jendotb@gmail.com</p>
+                        {/* <a href={`mailto:${this.props.email}`}>Contact</a> */}
+                        {/* <Link to='/'>Contact</Link> */}
                     </div>
                 </div>
-                <div className='footer-link-wrapper'>
+                {/* <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='https://github.com/onomatopoetica'>GitHub</Link>
+                        <Link url='https://github.com/onomatopoetica'>GitHub</Link>
                         <Link to='/'>Twitter</Link>
                         <Link to='/'>LinkedIn</Link>
                         <Link to='/'>Unsplash</Link>
                     </div>
-                </div>
+                </div> */}
+
             </div>
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <Link to='/' className='social-logo'>
+                        <p className='social-logo'>
                             Nice to meet you!
-                        </Link>
+                        </p>
                     </div>
-                    <small className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</small>
+                    <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
                     <div className='social-icons'>
                         <Link
                             className='social-icon-link github'
-                            to='/'
+                            to='https://www.twitter.com'
                             target='_blank'
                             aria-label='GitHub'
                         >

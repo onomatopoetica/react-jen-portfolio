@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function CardItem(props) {
     return (
         <>
+
             <li className='cards__item'>
-
-                <Link className='cards__item__link' to={props.path}>
-
+                <div className='cardItemWrapper'>
                     <figure className='cards__item__pic-wrap' data-category={props.label}>
                         <img src={props.src} alt='project' className='cards__item__img' />
                     </figure>
@@ -15,15 +14,12 @@ function CardItem(props) {
                     <div className='cards__item__info'>
                         {/* eslint-disable-next-line */}
                         <h5 className='cards__item__text'>{props.text}</h5>
+                        <p></p>
+                        <a className='github' href={props.url} target='_blank'>GitHub</a>
 
-                        {/* <div className='github' href={props.url}>
-                            GitHub</div> */}
-                        <div>
-                        </div>
-                        {/* <a className='app-link' href={props.liveApp}>
-                            Live </a> */}
+                        <a className='app' href={props.appURL} target='_blank'> Live App</a>
                     </div>
-                </Link>
+                </div>
             </li>
         </>
     )
