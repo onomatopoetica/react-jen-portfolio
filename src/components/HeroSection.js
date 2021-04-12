@@ -9,11 +9,11 @@ function HeroSection() {
     <div className='hero-container'>
       <h1>JENNIFER BATES</h1>
       <p>Web Developer + Project Manager</p>
-      <div className='hero-btns'>
+      <a href='#projects' className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
           CONTACT ME
         </Button>
-      </div>
+      </a>
     </div>
   )
 }

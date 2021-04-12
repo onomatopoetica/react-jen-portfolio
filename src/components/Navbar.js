@@ -41,14 +41,14 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/react-jen-portfolio/projects' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#projects' className='nav-links' onClick={closeMobileMenu}>
                             Projects
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/react-jen-portfolio/about' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#about' className='nav-links' onClick={closeMobileMenu}>
                             About
-                        </Link>
+                        </a>
                     </li>
                 </ul>
                 {button}

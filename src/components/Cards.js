@@ -46,13 +46,13 @@ function Cards() {
     return (
 
         <>
-            <div className='intro'>
+            <div id='about' className='intro'>
                 <p className='summary__intro'>I am a web developer + technical project manager with a passion for delighting the customer. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. As a technical project manager I managed many complex projects with a talented team of UX/UI designers and developers. We created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications.</p>
 
                 <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving!</p>
             </div>
 
-            <div className='cards'>
+            <div id='projects' className='cards'>
                 <h1>Check out my projects!</h1>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
