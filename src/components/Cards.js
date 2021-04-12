@@ -2,12 +2,12 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import CardItem from './CardItem';
 import './Cards.css';
-import fromthesky from '../images/fromthesky.jpeg';
-import sunflower from '../images/sunflower.jpeg';
-import pinkrunner from '../images/pinkrunner.png';
-import turks from '../images/turks.jpeg';
-import turksbeach from '../images/turksbeach.jpeg';
-import tulum from '../images/tulum.jpeg';
+import fitness from '../images/fitness.png';
+import codeqz from '../images/codeqz.png';
+import employees from '../images/employees.png';
+import evolvejournal from '../images/evolvejournal.png';
+import pickyeaterapp from '../images/pickyeaterapp.png';
+import traveltracker from '../images/traveltracker.png';
 
 // const projects = [
 //     {
@@ -77,46 +77,61 @@ function Cards() {
                             }
                         })} */}
                             <CardItem
-                                img src={turks}
-                                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                label='project one'
-                                url='https://github.com/onomatopoetica'
+                                img src={evolvejournal}
+                                text='A progressive web app! This group project fitness
+                                journal uses a Node + Express server with a mySQL database + a Sequelize ORM and an MVC design paradigm. This application is deployed on
+                                Heroku.'
+                                label='Evolve Fitness Journal'
+                                url='https://github.com/onomatopoetica/evolve'
+                                appURL='https://evolve-journal.herokuapp.com/'
+                            />
+
+                            <CardItem
+                                img src={codeqz}
+                                text='Students have 75 seconds to
+                                take a JavaScript quiz testing their knowledge of the
+                                fundamentals. The app stores high scores enabling students to gauge their
+                                progress compared to their
+                                peers. Deployed on GitHub.'
+                                label='JavaScript Code Quiz'
+                                url='https://github.com/onomatopoetica/code-quiz'
+                                appURL='https://onomatopoetica.github.io/code-quiz/'
+                            />
+                        </ul>
+                        <ul className='cards__items'>
+                            <CardItem
+                                img src={employees}
+                                text="An employee directory app using React to create UI components, manage component state and respond to user input events. Random User API is used to demonstrate app functionality. Results begin to render in the table as the user types."
+                                label='React Employee Directory'
+                                url='https://github.com/onomatopoetica/react-employee-directory'
+                                appURL='https://onomatopoetica.github.io/react-employee-directory/'
+                            />
+                            <CardItem
+                                img src={pickyeaterapp}
+                                text='A group project using jQuery + Spoonacular API
+                                creates a resource for people with food sensitivities. The user can search by specific
+                                dietary
+                                requirements to view a recipe, ingredients,
+                                instructions + view more information about the recipe.'
+                                label='Picky Eater Recipe App'
+                                url='https://github.com/jkriese12/picky-eater'
+                                appURL='https://jkriese12.github.io/picky-eater/'
+                            />
+                        </ul>
+                        <ul className='cards__items'>
+                            <CardItem
+                                img src={fitness}
+                                text='A fitness (workout) tracker incorporates a Mongo database with a Mongoose schema and routing with Express. The app uses MongoDB Atlas cloud database to store user data. The app is deployed on Heroku.'
+                                label='Fitness Tracker'
+                                url='https://github.com/onomatopoetica/workout-tracker'
+                                appURL='https://immense-inlet-26212.herokuapp.com/'
+                            />
+                            <CardItem
+                                img src={traveltracker}
+                                text='A responsive budget tracker progressive web app (PWA) with offline functionality. Deposits and expenses are stored in a MongoDB Atlas cloud database. The app is deployed on Heroku.'
+                                label='Travel Budget'
+                                url='https://github.com/onomatopoetica/budget-tracker'
                                 appURL='https://agile-river-83351.herokuapp.com/'
-                            />
-
-                            <CardItem
-                                img src={sunflower}
-                                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                label='project two'
-
-                            />
-                        </ul>
-                        <ul className='cards__items'>
-                            <CardItem
-                                img src={pinkrunner}
-                                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                label='project three'
-
-                            />
-                            <CardItem
-                                img src={turksbeach}
-                                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                label='project four'
-
-                            />
-                        </ul>
-                        <ul className='cards__items'>
-                            <CardItem
-                                img src={fromthesky}
-                                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                label='project five'
-
-                            />
-                            <CardItem
-                                img src={tulum}
-                                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-                                label='project six'
-
                             />
                         </ul>
                     </div>
