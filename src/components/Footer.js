@@ -39,7 +39,7 @@ function Footer() {
                         </a>
                         <a
                             className='social-icon-link twitter'
-                            href='https://www.twitter.com'
+                            href='https://twitter.com/JenDotB'
                             target='_blank'
                             aria-label='Twitter'
                         >
