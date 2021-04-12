@@ -59,10 +59,9 @@ function Cards() {
 
             <div id='projects' className='cards'>
                 <h1>PROJECTS</h1>
-                <p className='projects__intro'>Six projects I enjoyed working on are highlighted below. Select a
-                project image for more information, to view
+                <p className='projects__intro'>Six projects I enjoyed working on are highlighted below. Select <b>'GitHub'</b> for the project repository and the code behind the app. Select <b>'Live App'</b> to view
                 the deployed
-                    project or to see the code behind it all! Visit my full GitHub repository at: <a
+                    project! Visit my full GitHub repository at: <a
                         className="onomatopoetica" href="https://github.com/onomatopoetica"
                         target="_blank">Onomatopoetica</a>. <em>Please note: Apps deployed
                     on Heroku take a little longer to load.</em> </p>
