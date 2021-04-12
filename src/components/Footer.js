@@ -57,38 +57,38 @@ function Footer() {
                     </div>
                     <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
                     <div className='social-icons'>
-                        <Link
+                        <a
                             className='social-icon-link github'
-                            to='https://www.twitter.com'
+                            href='https://github.com/onomatopoetica'
                             target='_blank'
                             aria-label='GitHub'
                         >
                             <i className='fab fa-github' />
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className='social-icon-link twitter'
-                            to='/'
+                            href='https://www.twitter.com'
                             target='_blank'
                             aria-label='Twitter'
                         >
                             <i className='fab fa-twitter' />
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className='social-icon-link linkedin'
-                            to='/'
+                            href='https://www.linkedin.com/in/jenbates/'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin' />
-                        </Link>
-                        <Link
+                        </a>
+                        <a
                             className='social-icon-link unsplash'
-                            to='/'
+                            href='https://unsplash.com/@jendotb'
                             target='_blank'
                             aria-label='UnSplash'
                         >
                             <i className='fab fa-unsplash' />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>
