@@ -5,15 +5,41 @@
 
 h1 {
   text-align: center;
+  margin-top: 40px;
 }
 
 div {
   color: rgb(102, 205, 223);
 }
 
+.jen {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 500px;
+  max-width: 300px;
+}
+
 p.summary__intro {
-  padding: 40px 100px 0px;
+  padding: 20px 100px 20px;
   font-size: 18px;
+}
+
+p.projects__intro {
+  padding: 20px 35px 20px;
+  font-size: 18px;
+}
+
+.onomatopoetica {
+  text-decoration: none;
+  color:rgb(102, 205, 223);
+  font-weight: 700;
+}
+
+.onomatopoetica:hover {
+  color: goldenrod;
 }
 
 a.app, a.github {
@@ -33,11 +59,11 @@ a.github {
 }
 
 a.app:hover {
-  color: darkgoldenrod;
+  color: goldenrod;
 }
 
 a.github:hover {
-  color:darkgoldenrod
+  color:goldenrod
 }
 
 .cards__container {

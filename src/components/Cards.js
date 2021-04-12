@@ -8,6 +8,7 @@ import employees from '../images/employees.png';
 import evolvejournal from '../images/evolvejournal.png';
 import pickyeaterapp from '../images/pickyeaterapp.png';
 import traveltracker from '../images/traveltracker.png';
+import jen from '../images/jen.jpeg';
 
 // const projects = [
 //     {
@@ -47,13 +48,24 @@ function Cards() {
 
         <>
             <div id='about' className='intro'>
-                <p className='summary__intro'>I am a web developer + technical project manager with a passion for delighting the customer. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. As a technical project manager I managed many complex projects with a talented team of UX/UI designers and developers. We created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications.</p>
+                <h1 className='summary__head'>HELLO!</h1>
+                <img className='jen' src={jen}></img>
+                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a web developer and technical project manager with a passion for delighting the customer. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. As a technical project manager I have managed many complex projects with talented teams of UX/UI designers and developers. We've created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications.</p>
 
                 <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving!</p>
+
+                <p className='summary__intro'>When I'm not coding I love to scuba dive in the Caribbean and train for half-marathons.</p>
             </div>
 
             <div id='projects' className='cards'>
-                <h1>Check out my projects!</h1>
+                <h1>PROJECTS</h1>
+                <p className='projects__intro'>Six projects I enjoyed working on are highlighted below. Select a
+                project image for more information, to view
+                the deployed
+                    project or to see the code behind it all! Visit my full GitHub repository at: <a
+                        className="onomatopoetica" href="https://github.com/onomatopoetica"
+                        target="_blank">Onomatopoetica</a>. <em>Please note: Apps deployed
+                    on Heroku take a little longer to load.</em> </p>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>

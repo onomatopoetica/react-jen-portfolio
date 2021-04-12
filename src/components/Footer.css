@@ -37,7 +37,11 @@
 }
 
 p {
-  margin-left: -8px;
+  margin-left: -5px;
+}
+
+a {
+  margin-left: 2px;
 }
 
 .footer-link-items a {

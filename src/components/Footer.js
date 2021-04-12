@@ -10,11 +10,11 @@ function Footer() {
                 <div className='footer-links'>
                     <div className='footer-link-wrapper'>
                         <div className='footer-link-items'>
-                            <h2>Contact Me</h2>
+                            <h2>CONTACT ME</h2>
                             <p className='email'>jendotb@gmail.com</p>
                             {/* <a href={`mailto:${this.props.email}`}>Contact</a> */}
                             {/* <Link to='/'>Contact</Link> */}
-                            <a href='https://drive.google.com/file/d/1uLBy29D4QRW3srTHFjjzmfvzziwJwylQ/view?usp=sharing'>Download Resume
+                            <a className='resume' href='https://drive.google.com/file/d/1V7hC5NnImu6ntrT5P0TL22PbxTu_ER5Z/view?usp=sharing' target='_blank'> Download Resume
                     </a>
                         </div>
                     </div>
