@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/react-jen-portfolio/static/css/main.fe0aa1b5.chunk.css",
-    "main.js": "/react-jen-portfolio/static/js/main.6ca009d7.chunk.js",
-    "main.js.map": "/react-jen-portfolio/static/js/main.6ca009d7.chunk.js.map",
+    "main.css": "/react-jen-portfolio/static/css/main.6d76d218.chunk.css",
+    "main.js": "/react-jen-portfolio/static/js/main.2de95148.chunk.js",
+    "main.js.map": "/react-jen-portfolio/static/js/main.2de95148.chunk.js.map",
     "runtime-main.js": "/react-jen-portfolio/static/js/runtime-main.40dd7a4e.js",
     "runtime-main.js.map": "/react-jen-portfolio/static/js/runtime-main.40dd7a4e.js.map",
-    "static/js/2.74714976.chunk.js": "/react-jen-portfolio/static/js/2.74714976.chunk.js",
-    "static/js/2.74714976.chunk.js.map": "/react-jen-portfolio/static/js/2.74714976.chunk.js.map",
+    "static/js/2.1ab1b2c1.chunk.js": "/react-jen-portfolio/static/js/2.1ab1b2c1.chunk.js",
+    "static/js/2.1ab1b2c1.chunk.js.map": "/react-jen-portfolio/static/js/2.1ab1b2c1.chunk.js.map",
     "index.html": "/react-jen-portfolio/index.html",
-    "static/css/main.fe0aa1b5.chunk.css.map": "/react-jen-portfolio/static/css/main.fe0aa1b5.chunk.css.map",
-    "static/js/2.74714976.chunk.js.LICENSE.txt": "/react-jen-portfolio/static/js/2.74714976.chunk.js.LICENSE.txt",
+    "static/css/main.6d76d218.chunk.css.map": "/react-jen-portfolio/static/css/main.6d76d218.chunk.css.map",
+    "static/js/2.1ab1b2c1.chunk.js.LICENSE.txt": "/react-jen-portfolio/static/js/2.1ab1b2c1.chunk.js.LICENSE.txt",
+    "static/media/codeqz.f38b8e66.png": "/react-jen-portfolio/static/media/codeqz.f38b8e66.png",
+    "static/media/employees.989e54bd.png": "/react-jen-portfolio/static/media/employees.989e54bd.png",
+    "static/media/evolvejournal.051cd326.png": "/react-jen-portfolio/static/media/evolvejournal.051cd326.png",
+    "static/media/fitness.b33ae72d.png": "/react-jen-portfolio/static/media/fitness.b33ae72d.png",
     "static/media/HeroSection.css": "/react-jen-portfolio/static/media/fromthesky.9aa0862f.jpeg",
-    "static/media/pinkrunner.cdfc37da.png": "/react-jen-portfolio/static/media/pinkrunner.cdfc37da.png",
-    "static/media/sunflower.127f4148.jpeg": "/react-jen-portfolio/static/media/sunflower.127f4148.jpeg",
-    "static/media/tulum.e0bbb0b6.jpeg": "/react-jen-portfolio/static/media/tulum.e0bbb0b6.jpeg",
-    "static/media/turks.a8a0eef8.jpeg": "/react-jen-portfolio/static/media/turks.a8a0eef8.jpeg",
-    "static/media/turksbeach.083d5cc7.jpeg": "/react-jen-portfolio/static/media/turksbeach.083d5cc7.jpeg"
+    "static/media/pickyeaterapp.df4b3e24.png": "/react-jen-portfolio/static/media/pickyeaterapp.df4b3e24.png",
+    "static/media/traveltracker.a6dc7331.png": "/react-jen-portfolio/static/media/traveltracker.a6dc7331.png"
   },
   "entrypoints": [
     "static/js/runtime-main.40dd7a4e.js",
-    "static/js/2.74714976.chunk.js",
-    "static/css/main.fe0aa1b5.chunk.css",
-    "static/js/main.6ca009d7.chunk.js"
+    "static/js/2.1ab1b2c1.chunk.js",
+    "static/css/main.6d76d218.chunk.css",
+    "static/js/main.2de95148.chunk.js"
   ]
 }
