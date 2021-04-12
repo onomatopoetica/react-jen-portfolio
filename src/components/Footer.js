@@ -7,47 +7,19 @@ function Footer() {
     return (
         <div className='footer-container'>
             <section id='footer'>
-                {/* <section className='footer-subscription' > */}
-                {/* <p className='footer-subscription-heading'>Subscribe!</p>
-                <p className='footer-subscription-text'>You can unsubscribe at any time.</p> */}
-                {/* <div className='input-areas'> */}
-                {/* <form>
-                        <input
-                            className='footer-input'
-                            type='email'
-                            name='email'
-                            placeholder='name@mail.com'
-                        />
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
-                    </form> */}
-                {/* </div> */}
-                {/* </section> */}
-            </section>
-            <div className='footer-links'>
-                <div className='footer-link-wrapper'>
-                    {/* <div className='footer-link-items'>
-                        <h2>About Me</h2>
-                        <Link to='/sign-up'>About Me</Link>
-                        <Link to='/'>Testimonials</Link>
-                    </div> */}
-                    <div className='footer-link-items'>
-                        <h2>Contact Me</h2>
-                        <p className='email'>jendotb@gmail.com</p>
-                        {/* <a href={`mailto:${this.props.email}`}>Contact</a> */}
-                        {/* <Link to='/'>Contact</Link> */}
+                <div className='footer-links'>
+                    <div className='footer-link-wrapper'>
+                        <div className='footer-link-items'>
+                            <h2>Contact Me</h2>
+                            <p className='email'>jendotb@gmail.com</p>
+                            {/* <a href={`mailto:${this.props.email}`}>Contact</a> */}
+                            {/* <Link to='/'>Contact</Link> */}
+                            <a href='https://drive.google.com/file/d/1uLBy29D4QRW3srTHFjjzmfvzziwJwylQ/view?usp=sharing'>Download Resume
+                    </a>
+                        </div>
                     </div>
                 </div>
-                {/* <div className='footer-link-wrapper'>
-                    <div className='footer-link-items'>
-                        <h2>Social Media</h2>
-                        <Link url='https://github.com/onomatopoetica'>GitHub</Link>
-                        <Link to='/'>Twitter</Link>
-                        <Link to='/'>LinkedIn</Link>
-                        <Link to='/'>Unsplash</Link>
-                    </div>
-                </div> */}
-
-            </div>
+            </section>
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
