@@ -15,11 +15,7 @@ function HeroSection() {
         </Button>
       </a>
       {/* <div>
-        <a href='https://drive.google.com/file/d/1uLBy29D4QRW3srTHFjjzmfvzziwJwylQ/view?usp=sharing' className='hero-btns'>
-          <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
-            HIRE ME
-        </Button>
-        </a>
+        
       </div> */}
     </div>
   )
