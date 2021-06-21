@@ -51,7 +51,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#footer' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#contact' className='nav-links' onClick={closeMobileMenu}>
                             Contact
                         </a>
                     </li>
