@@ -6,7 +6,7 @@ import './HeroSection.css';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div id='home' className='hero-container'>
       <h1>JENNIFER BATES</h1>
       <p>Web Developer + Project Manager</p>
       <a href='#projects' className='hero-btns'>

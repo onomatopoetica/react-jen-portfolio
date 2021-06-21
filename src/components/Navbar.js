@@ -27,7 +27,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <Link to='/react-jen-portfolio/' className='navbar-logo' onClick={closeMobileMenu}>
+                    <Link to='/react-jen-portfolio/' href='#home' className='navbar-logo' onClick={closeMobileMenu}>
                         <i className='fas fa-heart' />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
@@ -36,9 +36,9 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/react-jen-portfolio/' className='nav-links' onClick={closeMobileMenu}>
+                        <a href='#home' className='nav-links' onClick={closeMobileMenu}>
                             Home
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item'>
                         <a href='#projects' className='nav-links' onClick={closeMobileMenu}>
@@ -48,6 +48,11 @@ function Navbar() {
                     <li className='nav-item'>
                         <a href='#about' className='nav-links' onClick={closeMobileMenu}>
                             About
+                        </a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#footer' className='nav-links' onClick={closeMobileMenu}>
+                            Contact
                         </a>
                     </li>
                 </ul>

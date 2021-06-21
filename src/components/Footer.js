@@ -14,8 +14,6 @@ function Footer() {
                             <p className='email'>jendotb@gmail.com</p>
                             {/* <a href={`mailto:${this.props.email}`}>Contact</a> */}
                             {/* <Link to='/'>Contact</Link> */}
-                            {/* <a className='resume' href='https://drive.google.com/file/d/1V7hC5NnImu6ntrT5P0TL22PbxTu_ER5Z/view?usp=sharing' target='_blank'> Download Resume
-                    </a> */}
                         </div>
                     </div>
                 </div>
