@@ -62,10 +62,11 @@ video {
 
     .btn-mobile {
         display: block;
+        margin-right: 35px;
         text-decoration: none;
     }
 
     .btn {
-        width: 100%
-;    }
+        width: 100%;
+   }
 }

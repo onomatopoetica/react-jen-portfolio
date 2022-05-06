@@ -25,7 +25,6 @@ function Footer() {
                             Nice to meet you!
                         </p>
                     </div>
-                    <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
                     <div className='social-icons'>
                         <a
                             className='social-icon-link github'
@@ -62,6 +61,7 @@ function Footer() {
                     </div>
                 </div>
             </section>
+            <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
         </div>
     );
 }

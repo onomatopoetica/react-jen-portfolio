@@ -8,15 +8,12 @@ function HeroSection() {
   return (
     <div id='home' className='hero-container'>
       <h1>JENNIFER BATES</h1>
-      <p>Web Developer + Project Manager</p>
+      <p>Software Engineer</p>
       <a href='#projects' className='hero-btns'>
         <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
           CONTACT ME
         </Button>
       </a>
-      {/* <div>
-        
-      </div> */}
     </div>
   )
 }

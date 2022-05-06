@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import CardItem from './CardItem';
 import './Cards.css';
 import fitness from '../images/fitness.png';
@@ -10,39 +9,6 @@ import pickyeaterapp from '../images/pickyeaterapp.png';
 import traveltracker from '../images/traveltracker.png';
 import jen from '../images/jen.jpeg';
 
-// const projects = [
-//     {
-//         name: 'project1',
-//         description: 'lorem ipsum',
-//         image: turks,
-//         GitHub: 'https://github.com/onomatopoetica',
-//         App: 'https://agile-river-83351.herokuapp.com/'
-//     },
-//     {
-//         name: 'project2',
-//         description: 'lorem ipsum',
-//         image: sunflower,
-//         GitHub: 'https://github.com/onomatopoetica',
-//         App: 'https://agile-river-83351.herokuapp.com/'
-//     },
-//     {
-//         name: 'project3',
-//         description: 'lorem ipsum',
-//         image: pinkrunner,
-//         GitHub: 'https://github.com/onomatopoetica',
-//         App: 'https://agile-river-83351.herokuapp.com/'
-//     },
-//     {
-//         name: 'project4',
-//         description: 'lorem ipsum',
-//         image: turksbeach,
-//         GitHub: 'https://github.com/onomatopoetica',
-//         App: 'https://agile-river-83351.herokuapp.com/'
-//     }
-// ];
-
-
-
 function Cards() {
     return (
 
@@ -50,9 +16,9 @@ function Cards() {
             <div id='about' className='intro'>
                 <h1 className='summary__head'>HELLO!</h1>
                 <img className='jen' src={jen}></img>
-                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a web developer and technical project manager with a passion for delighting the customer. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. As a technical project manager I have managed many complex projects with talented teams of UX/UI designers and developers. We've created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications.</p>
-
-                <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving!</p>
+                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a software engineer with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
+                
+                <p className='summary__intro'> As a technical project manager I managed many complex projects with talented teams of UX/UI designers and developers. We created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications. I am energized by environments in which I can combine creativity and problem solving!</p>
 
                 <p className='summary__intro'>When I'm not coding I love to scuba dive in the Caribbean and train for half-marathons.</p>
             </div>
@@ -68,25 +34,6 @@ function Cards() {
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
-                            {/* {projects.map((project, index) => {
-                            let jsxContent;
-                            if (index % 2 !== 0) {
-                                // Specify <CardItem>
-                                // Specify </ul>
-                            } else {
-                                // Specify <ul>
-                                <CardItem
-                                    img src={project.image}
-                                    text={project.description}
-                                    label={project.name}
-                           
-                                     githubUrl={project.GitHub}
-                                     appUrl={project.App}
-                                // "window.location.href = 'https://github.com/onomatopoetica'"
-                                // GitHub='https://github.com/onomatopoetica'
-                                />
-                            }
-                        })} */}
                             <CardItem
                                 img src={evolvejournal}
                                 text='A progressive web app! This group project fitness

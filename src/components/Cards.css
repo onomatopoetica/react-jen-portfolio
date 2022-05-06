@@ -24,12 +24,14 @@ div {
 
 p.summary__intro {
   padding: 20px 100px 20px;
-  font-size: 18px;
+  text-align: justify;
+  font-size: 19px;
 }
 
 p.projects__intro {
   padding: 20px 35px 20px;
-  font-size: 18px;
+  text-align: justify;
+  font-size: 19px;
 }
 
 .onomatopoetica {
@@ -174,5 +176,57 @@ a.github:hover {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 450px ) {
+  p.summary__intro {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 25px;
+    font-size: 14px;
+  }
+
+  #projects.cards {
+    margin-right: -20px;
+    margin-left: 0;
+    line-height: 28px;
+    padding: 18px;
+    font-size: 14px;
+  }
+
+  .cards__item__text {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: justify;
+    padding: 2px;
+    font-size: 15px;
+  }
+
+  .cards__item__pic-wrap {
+    height: 280px;
+  }
+
+  p.summary__intro {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: -41px;
+    padding: 25px;
+    font-size: 18px;
+  }
+
+  img.jen {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 200px;
+    max-width: 250px;
+  }
+
+  .cards__items {
+    margin-right: -5px;
+    margin-left: -20px;
   }
 }
