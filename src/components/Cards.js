@@ -16,8 +16,8 @@ function Cards() {
             <div id='about' className='intro'>
                 <h1 className='summary__head'>HELLO!</h1>
                 <img className='jen' src={jen}></img>
-                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a software engineer with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
-                
+                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a technical project manager and software engineer with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
+
                 <p className='summary__intro'> As a technical project manager I managed many complex projects with talented teams of UX/UI designers and developers. We created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications. I am energized by environments in which I can combine creativity and problem solving!</p>
 
                 <p className='summary__intro'>When I'm not coding I love to scuba dive in the Caribbean and train for half-marathons.</p>
@@ -26,11 +26,11 @@ function Cards() {
             <div id='projects' className='cards'>
                 <h1>PROJECTS</h1>
                 <p className='projects__intro'>Six projects I enjoyed working on are highlighted below. Select <b>'GitHub'</b> for the project repository and the code behind the app. Select <b>'Live App'</b> to view
-                the deployed
+                    the deployed
                     project! Visit my full GitHub repository at: <a
                         className="onomatopoetica" href="https://github.com/onomatopoetica"
                         target="_blank">Onomatopoetica</a>. <em>Please note: Apps deployed
-                    on Heroku take a little longer to load.</em> </p>
+                            on Heroku take a little longer to load.</em> </p>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>
