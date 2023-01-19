@@ -51,8 +51,6 @@ video {
 }
 
 @media screen and (max-width: 768px){
-    
-    
     .hero-container > h1 {
         font-size: 50px;
         margin-top: -100px;
@@ -60,11 +58,39 @@ video {
     }
 
     .hero-container > p {
-        font-size: 30px;        
+        font-size: 30px;
     }
 
     .btn-mobile {
         display: block;
+        font-size: 10px;
+        margin-right: 22px;
+        text-decoration: none;
+    }
+
+    #home {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+   }
+}
+
+@media only screen and (min-width: 310px) and (max-width: 550px ) {
+    .hero-container > h1 {
+        font-size: 35px;
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .hero-container > p {
+        font-size: 20px;
+    }
+
+    .btn-mobile {
+        display: block;
+        font-size: 10px;
         margin-right: 22px;
         text-decoration: none;
     }
