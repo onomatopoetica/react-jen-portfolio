@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import { Button } from './Button';
 import './Footer.css';
 
 function Footer() {
@@ -10,10 +8,13 @@ function Footer() {
                 <div className='footer-links'>
                     <div className='footer-link-wrapper'>
                         <div className='footer-link-items'>
-                            <h2>CONTACT ME</h2>
-                            <p className='email'>jendotb@gmail.com</p>
-                            {/* <a href={`mailto:${this.props.email}`}>Contact</a> */}
-                            {/* <Link to='/'>Contact</Link> */}
+                            <div>
+                                <button
+                                    className='btn--medium'
+                                    onClick={() => window.location = 'mailto:jendotb@gmail.com'}>
+                                    EMAIL ME!
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -30,22 +31,16 @@ function Footer() {
                             className='social-icon-link github'
                             href='https://github.com/onomatopoetica'
                             target='_blank'
+                            rel="noreferrer"
                             aria-label='GitHub'
                         >
                             <i className='fab fa-github' />
                         </a>
                         <a
-                            className='social-icon-link twitter'
-                            href='https://twitter.com/JenDotB'
-                            target='_blank'
-                            aria-label='Twitter'
-                        >
-                            <i className='fab fa-twitter' />
-                        </a>
-                        <a
                             className='social-icon-link linkedin'
                             href='https://www.linkedin.com/in/jenbates/'
                             target='_blank'
+                            rel="noreferrer"
                             aria-label='LinkedIn'
                         >
                             <i className='fab fa-linkedin' />
@@ -54,6 +49,7 @@ function Footer() {
                             className='social-icon-link unsplash'
                             href='https://unsplash.com/@jendotb'
                             target='_blank'
+                            rel="noreferrer"
                             aria-label='UnSplash'
                         >
                             <i className='fab fa-unsplash' />

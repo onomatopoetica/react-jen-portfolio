@@ -15,9 +15,9 @@ function CardItem(props) {
                         {/* eslint-disable-next-line */}
                         <h5 className='cards__item__text'>{props.text}</h5>
                         <p></p>
-                        <a className='github' href={props.url} target='_blank'>GitHub</a>
+                        <a className='github' href={props.url} target='_blank' rel="noreferrer">GitHub</a>
 
-                        <a className='app' href={props.appURL} target='_blank'> Live App</a>
+                        <a className='app' href={props.appURL} target='_blank' rel="noreferrer"> Live App</a>
                     </div>
                 </div>
             </li>

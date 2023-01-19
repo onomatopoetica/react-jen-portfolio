@@ -3,7 +3,7 @@ import CardItem from './CardItem';
 import './Cards.css';
 import fitness from '../images/fitness.png';
 import codeqz from '../images/codeqz.png';
-import employees from '../images/employees.png';
+import books from '../images/books.png';
 import evolvejournal from '../images/evolvejournal.png';
 import pickyeaterapp from '../images/pickyeaterapp.png';
 import traveltracker from '../images/traveltracker.png';
@@ -15,7 +15,7 @@ function Cards() {
         <>
             <div id='about' className='intro'>
                 <h1 className='summary__head'>HELLO!</h1>
-                <img className='jen' src={jen}></img>
+                <img className='jen' alt="self" src={jen}></img>
                 <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a technical project manager and software engineer with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
 
                 <p className='summary__intro'> As a technical project manager I managed many complex projects with talented teams of UX/UI designers and developers. We created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications. I am energized by environments in which I can combine creativity and problem solving!</p>
@@ -29,7 +29,7 @@ function Cards() {
                     the deployed
                     project! Visit my full GitHub repository at: <a
                         className="onomatopoetica" href="https://github.com/onomatopoetica"
-                        target="_blank">Onomatopoetica</a>. <em>Please note: Apps deployed
+                        target="_blank" rel="noreferrer">Onomatopoetica</a>. <em>Please note: Apps deployed
                             on Heroku take a little longer to load.</em> </p>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
@@ -58,11 +58,12 @@ function Cards() {
                         </ul>
                         <ul className='cards__items'>
                             <CardItem
-                                img src={employees}
-                                text="An employee directory app using React to create UI components, manage component state and respond to user input events. Random User API is used to demonstrate app functionality. Results begin to render in the table as the user types."
-                                label='React Employee Directory'
-                                url='https://github.com/onomatopoetica/react-employee-directory'
-                                appURL='https://onomatopoetica.github.io/react-employee-directory/'
+                                img src={books}
+                                text="A books search application with React, Node, Express and MongoDB utilizing the Google Books API.
+                                The user can search for a book, the search will render a list of books relevant to the search word. The user can save book titles to a list of favorites. Deployed on Heroku."
+                                label='React Google Books Search'
+                                url='https://github.com/onomatopoetica/react-google-books-search'
+                                appURL='https://react-googlebooks-search-app.herokuapp.com/'
                             />
                             <CardItem
                                 img src={pickyeaterapp}
