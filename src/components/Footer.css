@@ -123,7 +123,13 @@ p {
 
 .website-rights {
   color: #fff;
-  font-weight: 400;
+  font-size: .75rem;
+  font-weight: 100;
+}
+
+.fas.fa-heart {
+  font-size: .75rem;
+  margin-bottom: 5px;
 }
 
 @media screen and (max-width: 820px) {
@@ -135,9 +141,14 @@ p {
     width: 100%;
   }
 
-  .btn {
+  .btn--medium {
     width: 100%;
+    margin-left: 12px;
     align-items: center;
+  }
+
+  .website-rights {
+    padding-bottom: 20px;
   }
 
   .footer-link-wrapper {
@@ -160,20 +171,21 @@ p {
   .footer-link-items {
     margin-right: 0;
     margin-left: 0;
-    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 0px;
     margin-bottom: -15px;
   }
 
-  .btn {
+  .btn--medium {
+    margin-left: 12px;
     width: 100%;
     align-items: center;
   }
 
   .website-rights {
-    padding-bottom: 10px;
-    font-size: 14px;
-    padding-top: 25px;
+    padding-bottom: 20px;
+    font-size: .75rem;
+    font-weight: 100;
   }
 
   .footer-container {

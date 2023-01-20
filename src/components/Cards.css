@@ -9,7 +9,7 @@ h1 {
 }
 
 div {
-  color: rgb(102, 205, 223);
+  color: #00264D
 }
 
 .jen {
@@ -102,7 +102,7 @@ a.github:hover {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px; 
+  border-radius: 10px;
 }
 
 .cards__item__pic-wrap {
@@ -155,7 +155,8 @@ a.github:hover {
 }
 
 .cards__item__text {
-  color: rgb(102, 205, 223);
+  color: #00264D;
+  color: 40, 44, 63;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;

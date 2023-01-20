@@ -22,9 +22,7 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <p className='social-logo'>
-                            Nice to meet you!
-                        </p>
+                        <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
                     </div>
                     <div className='social-icons'>
                         <a
@@ -57,7 +55,6 @@ function Footer() {
                     </div>
                 </div>
             </section>
-            <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
         </div>
     );
 }

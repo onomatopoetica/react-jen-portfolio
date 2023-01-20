@@ -18,25 +18,17 @@
 
 p {
   font-size: 1rem;
-  color: rgb(102, 205, 223);
+  color: 40, 44, 63;
   margin: 10px;
 }
 
 .about {
-  /* background-image: url('images/fromthesky.jpeg'); */
-  /* background-position: center; */
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  color: rgb(102, 205, 223);
+  color: 40, 44, 63;
   font-size: 40px;
 }
 
 .projects {
-  /* background-image: url('images/fromthesky.jpeg'); */
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  color: rgb(102, 205, 223);
+  color: 40, 44, 63;
   font-size: 40px;
 }
 
