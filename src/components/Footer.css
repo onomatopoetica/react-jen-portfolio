@@ -148,7 +148,7 @@ p {
   }
 
   .website-rights {
-    padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .footer-link-wrapper {
@@ -165,7 +165,7 @@ p {
     margin-right: 0;
     margin-left: 0;
     font-size: 22px;
-    padding-top: 10px;
+    padding-bottom: 20px;
   }
 
   .footer-link-items {
@@ -183,12 +183,20 @@ p {
   }
 
   .website-rights {
-    padding-bottom: 20px;
+    padding-top: 10px;
     font-size: .75rem;
     font-weight: 100;
   }
 
   .footer-container {
     padding-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 309px ){
+  .website-rights {
+    padding-top: 10px;
+    font-size: .75rem;
+    font-weight: 100;
   }
 }

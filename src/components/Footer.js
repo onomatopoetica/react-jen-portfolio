@@ -21,9 +21,6 @@ function Footer() {
             </section>
             <section className='social-media'>
                 <div className='social-media-wrap'>
-                    <div className='footer-logo'>
-                        <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
-                    </div>
                     <div className='social-icons'>
                         <a
                             className='social-icon-link github'
@@ -52,6 +49,9 @@ function Footer() {
                         >
                             <i className='fab fa-unsplash' />
                         </a>
+                    </div>
+                    <div className='footer-logo'>
+                        <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
                     </div>
                 </div>
             </section>

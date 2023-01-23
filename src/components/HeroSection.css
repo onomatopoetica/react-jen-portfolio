@@ -103,3 +103,25 @@ video {
         width: 100%;
    }
 }
+
+@media only screen and (min-width: 280px) and (max-width: 309px ) {
+    .hero-container > h1 {
+        font-size: 30px;
+        margin-top: -100px;
+        width: 100%;
+    }
+
+    .hero-container > p {
+        font-size: 15px;
+    }
+
+    .hero-btns {
+        margin-top: 52px;
+        font-size: 12px;
+    }
+
+    .hero-btns .btn {
+        margin: 6px;
+        font-size: 12px;
+    }
+}
