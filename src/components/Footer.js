@@ -51,7 +51,10 @@ function Footer() {
                         </a>
                     </div>
                     <div className='footer-logo'>
-                        <h4 className='website-rights'>Made with <i className='fas fa-heart' /> Onomatopoetica © 2021</h4>
+                        <h4 className='website-rights'>Made with <i className='fas fa-heart' />  <a href='https://github.com/onomatopoetica'
+                            target='_blank'
+                            rel="noreferrer"
+                            aria-label='GitHub'>Onomatopoetica </a> © 2021</h4>
                     </div>
                 </div>
             </section>
