@@ -18,9 +18,11 @@ function Cards() {
                 <img className='jen' alt="self" src={jen}></img>
                 <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a technical project manager and software engineer with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
 
-                <p className='summary__intro'> As a technical project manager I managed many complex projects with talented teams of UX/UI designers and developers. We created everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user experience flows for client onboarding applications. I am energized by environments in which I can combine creativity and problem solving!</p>
+                <p className='summary__intro'> In both roles, I completed many complex projects collaborating with telematics, backend, UX design, and product management teams in dynamic, fast-paced startup environments to build proprietary HMI components and cloud platforms for everything from electric vehicles, to industrial machines, to GUIs for remote monitoring devices.</p>
 
-                <p className='summary__intro'>When I'm not coding I love to scuba dive in the Caribbean and train for half-marathons.</p>
+                <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving! When I'm not coding, I love to scuba dive in the Caribbean and train for half-marathons with my two beautiful   <a
+                    className="pups" href="https://www.instagram.com/scarlettlerouge/"
+                    target="_blank" rel="noreferrer">red pups</a>.</p>
             </div>
 
             <div id='projects' className='cards'>
@@ -29,8 +31,8 @@ function Cards() {
                     the deployed
                     project! Visit my full GitHub repository at: <a
                         className="onomatopoetica" href="https://github.com/onomatopoetica"
-                        target="_blank" rel="noreferrer">Onomatopoetica</a>. <em>Please note: Apps deployed
-                            on Heroku take a little longer to load.</em> </p>
+                        target="_blank" rel="noreferrer">Onomatopoetica</a>. <b>Please note: Apps deployed
+                            on Heroku take a little longer to load.</b> </p>
                 <div className='cards__container'>
                     <div className='cards__wrapper'>
                         <ul className='cards__items'>

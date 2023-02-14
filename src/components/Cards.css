@@ -5,7 +5,7 @@
 
 h1 {
   text-align: center;
-  margin-top: 40px;
+  margin: 40px;
 }
 
 div {
@@ -23,24 +23,24 @@ div {
 }
 
 p.summary__intro {
-  padding: 20px 100px 20px;
+  padding: 10px 200px 10px;
   text-align: justify;
   font-size: 19px;
 }
 
 p.projects__intro {
-  padding: 20px 35px 20px;
+  padding: 20px 140px 20px;
   text-align: justify;
   font-size: 19px;
 }
 
-.onomatopoetica {
+.onomatopoetica, .pups {
   text-decoration: none;
   color:rgb(102, 205, 223);
   font-weight: 700;
 }
 
-.onomatopoetica:hover {
+.onomatopoetica:hover, .pups:hover {
   color: goldenrod;
 }
 
@@ -60,19 +60,15 @@ a.github {
   float: left;
 }
 
-a.app:hover {
+a.app:hover, a.github:hover {
   color: goldenrod;
-}
-
-a.github:hover {
-  color:goldenrod
 }
 
 .cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  max-width: 1180px;
   width: 90%;
   margin: 0 auto;
 }
@@ -162,30 +158,37 @@ a.github:hover {
   line-height: 24px;
 }
 
-@media only screen and (min-width: 1200px) {
-  .content__blog__container {
-    width: 84%;
-  }
-}
-
 @media only screen and (min-width: 1024px) {
   .cards__items {
     display: flex;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   .cards__item {
     margin-bottom: 2rem;
   }
+
+  p.summary__intro {
+    padding: 10px 120px 10px;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  p.projects__intro {
+    padding: 20px 50px 20px;
+    text-align: justify;
+    font-size: 18px;
+  }
 }
 
-@media only screen and (min-width: 310px) and (max-width: 450px ) {
+@media only screen and (min-width: 310px) and (max-width: 915px ) {
   p.summary__intro {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 25px;
-    font-size: 14px;
+    padding: 10px 40px 10px;
+  }
+
+  p.projects__intro {
+    padding: 0px 25px 0px;
   }
 
   #projects.cards {
@@ -201,19 +204,11 @@ a.github:hover {
     margin-left: 0;
     text-align: justify;
     padding: 2px;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .cards__item__pic-wrap {
     height: 280px;
-  }
-
-  p.summary__intro {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: -41px;
-    padding: 25px;
-    font-size: 18px;
   }
 
   img.jen {
@@ -234,10 +229,13 @@ a.github:hover {
 
 @media only screen and (min-width: 280px) and (max-width: 309px ){
   p.summary__intro {
-    margin-right: 0;
-    margin-left: 0;
-    padding: 25px;
-    font-size: 10px;
+    padding: 10px 40px 10px;
+    font-size: 14px;
+  }
+
+  p.projects__intro {
+    padding: 0px 25px 0px;
+    font-size: 14px;
   }
 
   #projects.cards {
@@ -245,7 +243,7 @@ a.github:hover {
     margin-left: 0;
     line-height: 28px;
     padding: 18px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .cards__item__text {
@@ -253,7 +251,7 @@ a.github:hover {
     margin-left: 0;
     text-align: justify;
     padding: 2px;
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .cards__item__pic-wrap {
@@ -272,14 +270,6 @@ a.github:hover {
     color: #fff;
     background-color: rgb(102, 205, 223);
     box-sizing: border-box;
-  }
-
-  p.summary__intro {
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: -41px;
-    padding: 25px;
-    font-size: 18px;
   }
 
   img.jen {
