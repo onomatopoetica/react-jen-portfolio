@@ -61,7 +61,7 @@ function Cards() {
                             <CardItem
                                 img src={books}
                                 text="A books search application with React, Node, Express and MongoDB utilizing the Google Books API.
-                                The user can search for a book, the search will render a list of books relevant to the search word. The user can save book titles to a list of favorites. Deployed on Heroku."
+                                The user can search for a book to render a list of books relevant to the search word. The user can save their favorite book titles. Deployed on Heroku."
                                 label='React Google Books Search'
                                 url='https://github.com/onomatopoetica/react-google-books-search'
                                 appURL='https://react-googlebooks-search-app.herokuapp.com/'
@@ -81,7 +81,7 @@ function Cards() {
                         <ul className='cards__items'>
                             <CardItem
                                 img src={fitness}
-                                text='A fitness (workout) tracker incorporates a Mongo database with a Mongoose schema and routing with Express. The app uses MongoDB Atlas cloud database to store user data. Deployed on Heroku.'
+                                text='A fitness tracker incorporates a Mongo database and Mongoose schema routing with Express. The app uses MongoDB Atlas cloud database to store user data. Deployed on Heroku.'
                                 label='Fitness Tracker'
                                 url='https://github.com/onomatopoetica/workout-tracker'
                                 appURL='https://immense-inlet-26212.herokuapp.com/'
