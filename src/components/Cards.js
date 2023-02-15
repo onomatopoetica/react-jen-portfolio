@@ -51,8 +51,7 @@ function Cards() {
                                 text='Students have 75 seconds to
                                 take a JavaScript quiz testing their knowledge of the
                                 fundamentals. The app stores high scores enabling students to gauge their
-                                progress compared to their
-                                peers. Deployed on GitHub.'
+                                progress. This app is deployed on GitHub.'
                                 label='JavaScript Code Quiz'
                                 url='https://github.com/onomatopoetica/code-quiz'
                                 appURL='https://onomatopoetica.github.io/code-quiz/'
@@ -82,7 +81,7 @@ function Cards() {
                         <ul className='cards__items'>
                             <CardItem
                                 img src={fitness}
-                                text='A fitness (workout) tracker incorporates a Mongo database with a Mongoose schema and routing with Express. The app uses MongoDB Atlas cloud database to store user data. The app is deployed on Heroku.'
+                                text='A fitness (workout) tracker incorporates a Mongo database with a Mongoose schema and routing with Express. The app uses MongoDB Atlas cloud database to store user data. Deployed on Heroku.'
                                 label='Fitness Tracker'
                                 url='https://github.com/onomatopoetica/workout-tracker'
                                 appURL='https://immense-inlet-26212.herokuapp.com/'

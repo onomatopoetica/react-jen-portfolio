@@ -68,7 +68,7 @@ a.app:hover, a.github:hover {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1180px;
+  max-width: 1280px;
   width: 90%;
   margin: 0 auto;
 }
