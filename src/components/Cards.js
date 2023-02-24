@@ -20,9 +20,7 @@ function Cards() {
 
                 <p className='summary__intro'> In both roles, I completed many complex projects collaborating with telematics, backend, UX design, and product management teams in dynamic, fast-paced startup environments to build proprietary HMI components and cloud platforms for everything from electric vehicles, to industrial machines, to GUIs for remote monitoring devices.</p>
 
-                <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving! When I'm not coding, I love to scuba dive in the Caribbean and train for half-marathons with my two beautiful   <a
-                    className="pups" href="https://www.instagram.com/scarlettlerouge/"
-                    target="_blank" rel="noreferrer">red pups</a>.</p>
+                <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving! When I'm not coding, I love to scuba dive in the Caribbean and train for half-marathons.</p>
             </div>
 
             <div id='projects' className='cards'>
