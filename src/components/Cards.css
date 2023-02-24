@@ -34,13 +34,13 @@ p.projects__intro {
   font-size: 19px;
 }
 
-.onomatopoetica, .pups {
+.onomatopoetica {
   text-decoration: none;
   color:rgb(102, 205, 223);
   font-weight: 700;
 }
 
-.onomatopoetica:hover, .pups:hover {
+.onomatopoetica:hover {
   color: goldenrod;
 }
 
