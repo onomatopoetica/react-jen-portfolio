@@ -16,11 +16,11 @@ function Cards() {
             <div id='about' className='intro'>
                 <h1 className='summary__head'>HELLO!</h1>
                 <img className='jen' alt="self" src={jen}></img>
-                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a technical project manager and software engineer with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
+                <p className='summary__intro'>I'm Jen. Thank you for visiting my portfolio. I am a software engineer and technical project manager with a passion for creating beautiful interfaces. I am also a self-proclaimed nerd. I have always enjoyed working in technology for its dynamic, ever-evolving landscape. </p>
 
                 <p className='summary__intro'> In both roles, I completed many complex projects collaborating with telematics, backend, UX design, and product management teams in dynamic, fast-paced startup environments to build proprietary HMI components and cloud platforms for everything from electric vehicles, to industrial machines, to GUIs for remote monitoring devices.</p>
 
-                <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving! When I'm not coding, I love to scuba dive in the Caribbean and train for half-marathons.</p>
+                <p className='summary__intro'>I am energized by environments in which I can combine creativity and problem solving! When I'm not coding, I love to go sailing and scuba dive in the Caribbean.</p>
             </div>
 
             <div id='projects' className='cards'>
